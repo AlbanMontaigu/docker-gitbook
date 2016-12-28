@@ -8,6 +8,7 @@ A gitbook docker image to allow you to build and publish your documentation.
 * ```gitbook```
 * ```npm```
 * ```lftp```
+* ```git```
 
 ## Usage
 

@@ -21,6 +21,7 @@ RUN npm install --global gitbook-cli \
 	&& npm cache clear \
 	&& apk update \
 	&& apk add lftp \
+	&& apk add git \
 	&& rm -rf /tmp/*
 
 # Current directory configuration
