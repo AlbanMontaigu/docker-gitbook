@@ -29,3 +29,6 @@ docker run -it --rm --entrypoint=/bin/sh amontaigu/gitbook
 * https://www.npmjs.com/package/gitbook
 * https://www.npmjs.com/package/gitbook-cli
 * https://github.com/Fellah/docker/blob/master/gitbook/Dockerfile
+* https://toolchain.gitbook.com/syntax/asciidoc.html
+* http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+* https://youtu.be/1rKgVF5CEEY
