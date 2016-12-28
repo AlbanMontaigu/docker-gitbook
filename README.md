@@ -14,7 +14,7 @@ A gitbook docker image to allow you to build and publish your documentation.
 
 **To build your documentation in a specific directory:**
 ```
-docker run -v /my_gitbook:/gitbook -v /my_html:/html amontaigu/gitbook gitbook build docs html
+docker run -v /my_gitbook:/gitbook amontaigu/gitbook gitbook build docs html
 ```
 
 **To go inside the container an play with available commands in a shell:**
