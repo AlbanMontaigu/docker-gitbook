@@ -2,7 +2,7 @@
 #
 # Docker gitbook helper image
 #
-# Getting gitbook commands in an image to build and deploy your docs
+# Provide gitbook commands in a docker image to build and deploy your docs
 #
 # ==================================================================================================
 
