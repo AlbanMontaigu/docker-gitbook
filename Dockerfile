@@ -6,8 +6,8 @@
 #
 # ==================================================================================================
 
-# Base image, small node image on the top of alpine
-FROM node:7.3.0-alpine
+# Base image, default node image
+FROM node:7.3.0
 
 # Maintainer
 MAINTAINER Alban Montaigu <https://github.com/AlbanMontaigu>
@@ -19,8 +19,9 @@ ENV GITBOOK_VERSION="3.2.2"
 RUN npm install --global gitbook-cli \
 	&& gitbook fetch ${GITBOOK_VERSION} \
 	&& npm cache clear \
-	&& apk update \
-	&& apk add lftp git \
+	&& apt-get update \
+	&& apt-get install --no-install-recommends --no-install-suggests -y lftp calibre \
+	&& rm -rf /var/lib/apt/lists/* \
 	&& rm -rf /tmp/*
 
 # Current directory configuration

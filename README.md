@@ -4,11 +4,12 @@
 
 A gitbook docker image to allow you to build and publish your documentation.
 
-**Available commands:**
-* ```gitbook```
-* ```npm```
-* ```lftp```
-* ```git```
+**Available software:**
+* ```gitbook``` with pdf option thanks to calibre
+* ```calibre``` required by gitbook for pdf generation
+* ```npm``` required for gitbook
+* ```lftp``` to upload your docs on a distant site
+* ```git``` to get your doc source
 
 ## Usage
 
@@ -32,3 +33,5 @@ docker run -it --rm --entrypoint=/bin/sh amontaigu/gitbook
 * https://toolchain.gitbook.com/syntax/asciidoc.html
 * http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 * https://youtu.be/1rKgVF5CEEY
+* https://calibre-ebook.com/download_linux
+* https://toolchain.gitbook.com/ebook.html
