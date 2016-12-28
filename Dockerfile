@@ -26,8 +26,8 @@ RUN npm install --global gitbook-cli \
 # Current directory configuration
 WORKDIR /gitbook
 
-# Volume for generated data if any
-VOLUME /gitbook /html
+# Volume for gitbook operations
+VOLUME /gitbook
 
 # Ports for serve command
 EXPOSE 4000 35729
