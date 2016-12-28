@@ -32,5 +32,5 @@ VOLUME /gitbook /html
 # Ports for serve command
 EXPOSE 4000 35729
 
-# Entrypoint is shell and default command is gitbook version list
-ENTRYPOINT ["/bin/sh"]
+# Default cmd is version display
+CMD /usr/local/bin/gitbook -V

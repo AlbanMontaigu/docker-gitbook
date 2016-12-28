@@ -19,7 +19,7 @@ docker run -v /my_gitbook:/gitbook -v /my_html:/html amontaigu/gitbook gitbook b
 
 ** To go inside the container an play with available commands in a shell:**
 ```
-docker run -it --rm amontaigu/gitbook
+docker run -it --rm --entrypoint=/bin/sh amontaigu/gitbook
 ```
 
 ## References and thanks
