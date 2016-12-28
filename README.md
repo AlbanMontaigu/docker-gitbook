@@ -4,7 +4,7 @@
 
 A gitbook docker image to allow you to build and publish your documentation.
 
-**Commands available:**
+**Available commands:**
 * ```gitbook```
 * ```npm```
 * ```lftp```
