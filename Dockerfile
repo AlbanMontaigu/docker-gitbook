@@ -19,6 +19,7 @@ ENV GITBOOK_VERSION="3.2.2"
 RUN npm install --global gitbook-cli \
 	&& gitbook fetch ${GITBOOK_VERSION} \
 	&& npm cache clear \
+	&& apk update \
 	&& apk add lftp \
 	&& rm -rf /tmp/*
 
