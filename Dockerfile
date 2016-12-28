@@ -34,4 +34,3 @@ EXPOSE 4000 35729
 
 # Entrypoint is shell and default command is gitbook version list
 ENTRYPOINT ["/bin/sh"]
-CMD ["/usr/local/bin/gitbook ls"]
