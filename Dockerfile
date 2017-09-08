@@ -7,7 +7,7 @@
 # ==================================================================================================
 
 # Base image, default node image
-FROM node:7.3.0
+FROM node:8.4.0-alpine
 
 # Maintainer
 MAINTAINER Alban Montaigu <https://github.com/AlbanMontaigu>
