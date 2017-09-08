@@ -1,7 +1,7 @@
 
 ## 3.2.3 (2017-09-08)
 - UPDATE: update to gitbook 3.2.3
-- UPDATE: update to base image node:8.4.0-alpine
+- UPDATE: update to base image node:8.4.0-slim
 - FEATURE: CircleCI 2.0 build added
 - FEATURE: tests added
 
