@@ -11,6 +11,6 @@
 
 # Test gitbook version
 @test "Gitbook version is ${GITBOOK_VERSION}" {
-	result="$(docker run ${DOCKER_APP_IMAGE_NAME} version)"
+	result="$(docker run ${DOCKER_APP_IMAGE_NAME} gitbook -V)"
 	[[ "$result" == *"GitBook version: ${GITBOOK_VERSION}"* ]]
 }
