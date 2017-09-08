@@ -13,7 +13,7 @@ FROM node:7.3.0
 MAINTAINER Alban Montaigu <https://github.com/AlbanMontaigu>
 
 # Environment configuration
-ENV GITBOOK_VERSION="3.2.2"
+ENV GITBOOK_VERSION="3.2.3"
 
 # Install gitbook and lftp
 RUN npm install --global gitbook-cli \
