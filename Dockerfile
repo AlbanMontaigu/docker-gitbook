@@ -9,9 +9,6 @@
 # Base image, default node image
 FROM node:8.4.0-slim
 
-# Maintainer
-MAINTAINER Alban Montaigu <https://github.com/AlbanMontaigu>
-
 # Environment configuration
 ENV GITBOOK_VERSION="3.2.3"
 
