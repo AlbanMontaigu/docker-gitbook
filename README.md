@@ -1,4 +1,4 @@
-# docker-gitbook
+# docker-gitbook [![Circle CI](https://circleci.com/gh/AlbanMontaigu/docker-gitbook.svg?style=shield)](https://circleci.com/gh/AlbanMontaigu/docker-gitbook)
 
 ## Purpose
 
