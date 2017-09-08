@@ -18,7 +18,7 @@ ENV GITBOOK_VERSION="3.2.3"
 # Install gitbook and lftp
 RUN npm install --global gitbook-cli \
 	&& gitbook fetch ${GITBOOK_VERSION} \
-	&& npm cache clear \
+	&& npm cache clear --force \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends --no-install-suggests -y lftp calibre \
 	&& rm -rf /var/lib/apt/lists/* \
